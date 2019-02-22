@@ -1,7 +1,7 @@
 <?php
 
-if(isset($_POST['staff_id'])){
-	$staff_id = (int)$_POST['staff_id'];
+if(isset($_REQUEST['staff_id'])){
+	$staff_id = (int)$_REQUEST['staff_id'];
 	if($staff_id > 0){
 		if($staff_id < 11){
 			$response['staff_status'] = 1;

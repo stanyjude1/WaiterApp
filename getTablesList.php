@@ -1,9 +1,9 @@
 <?php
 
-if(isset($_POST['staff_id'])){
-	if(isset($_POST['zone_id'])){
-		if((int)$_POST['zone_id'] > 0 && (int)$_POST['zone_id'] < 6){
-			$j = (int)$_POST['zone_id'] *10;
+if(isset($_REQUEST['staff_id'])){
+	if(isset($_REQUEST['zone_id'])){
+		if((int)$_REQUEST['zone_id'] > 0 && (int)$_REQUEST['zone_id'] < 6){
+			$j = (int)$_REQUEST['zone_id'] *10;
 
 			for($i = 0; $i < 10 ; $i ++){
 				$response['table_list'][$i]['table_name'] = "TBL ".($j+1);
@@ -12,7 +12,7 @@ if(isset($_POST['staff_id'])){
 			}
 			$response['error_code'] = 0;
 			$response['message'] = "success";
-			$response['zone_id'] = (int)$_POST['zone_id'];
+			$response['zone_id'] = (int)$_REQUEST['zone_id'];
 		}
 		else{
 			$response['error_code'] = 11;

@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['staff_id'])){
+if(isset($_REQUEST['staff_id'])){
 	$zone_id_arr = [1,2,3,4,5];
 	$zone_name_arr = ["MJ Zone", "S Zone", "P Zone", "B Zone", "ET Zone"];
 
