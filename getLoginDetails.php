@@ -9,6 +9,8 @@ if(isset($_REQUEST['username'])){
 			if($password == "admin"){
 				$response['error_code'] = 0;
 				$response['message'] = "success";
+				$response['res_id'] = "1";
+				$response['res_name'] = "Karama Restaurant";
 
 				if($username == "waiter_one"){
 					$response['staff_id'] = 1;
