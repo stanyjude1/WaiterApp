@@ -1,9 +1,9 @@
 <?php
 
-if(isset($_GET['username'])){
-	if(isset($_GET['password'])){
-		$username = $_GET['username'];
-		$password = $_GET['password'];
+if(isset($_POST['username'])){
+	if(isset($_POST['password'])){
+		$username = $_POST['username'];
+		$password = $_POST['password'];
 
 		if($username == "waiter_one" || $username == "waiter_two"){
 			if($password == "admin"){

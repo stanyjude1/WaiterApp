@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_GET['staff_id'])){
+if(isset($_POST['staff_id'])){
 	$response['zone_list'][0]['zone_name'] = "MJ Zone";
 	$response['zone_list'][0]['zone_id'] = 1;
 	$response['zone_list'][1]['zone_name'] = "S Zone";
@@ -13,7 +13,7 @@ if(isset($_GET['staff_id'])){
 	$response['zone_list'][4]['zone_id'] = 5;
 	$response['error_code'] = 0;
 	$response['message'] = "success";
-	$response['staff_id'] = $_GET['staff_id'];
+	$response['staff_id'] = $_POST['staff_id'];
 }
 else{
 	$response['error_code'] = 8;
