@@ -1,19 +1,19 @@
 <?php
 
 if(isset($_REQUEST['staff_id'])){
-	$response['zone_list'][0]['zone_name'] = "MJ Zone";
-	$response['zone_list'][0]['zone_id'] = 1;
-	$response['zone_list'][1]['zone_name'] = "S Zone";
-	$response['zone_list'][1]['zone_id'] = 2;
-	$response['zone_list'][2]['zone_name'] = "P Zone";
-	$response['zone_list'][2]['zone_id'] = 3;
-	$response['zone_list'][3]['zone_name'] = "B Zone";
-	$response['zone_list'][3]['zone_id'] = 4;
-	$response['zone_list'][4]['zone_name'] = "ET Zone";
-	$response['zone_list'][4]['zone_id'] = 5;
-	$response['error_code'] = 0;
-	$response['message'] = "success";
-	$response['staff_id'] = $_REQUEST['staff_id'];
+	$response['ZoneDetails'][0]['name'] = "MJ Zone";
+	$response['ZoneDetails'][0]['id'] = 1;
+	$response['ZoneDetails'][1]['name'] = "S Zone";
+	$response['ZoneDetails'][1]['id'] = 2;
+	$response['ZoneDetails'][2]['name'] = "P Zone";
+	$response['ZoneDetails'][2]['id'] = 3;
+	$response['ZoneDetails'][3]['name'] = "B Zone";
+	$response['ZoneDetails'][3]['id'] = 4;
+	$response['ZoneDetails'][4]['name'] = "ET Zone";
+	$response['ZoneDetails'][4]['id'] = 5;
+	$response['response'] = 200;
+	$response['restaurant_id'] = 1;
+	$response['restaurant_name'] = "Karama Restaurant";
 }
 else{
 	$response['error_code'] = 8;
@@ -24,3 +24,4 @@ echo json_encode($response,JSON_UNESCAPED_SLASHES);
 exit();
 
 ?>
+

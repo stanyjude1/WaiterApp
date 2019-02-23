@@ -6,13 +6,15 @@ if(isset($_REQUEST['staff_id'])){
 			$j = (int)$_REQUEST['zone_id'] *10;
 
 			for($i = 0; $i < 10 ; $i ++){
-				$response['table_list'][$i]['table_name'] = "TBL ".($j+1);
-				$response['table_list'][$i]['table_id'] = $j+1;
+				$response['DiningDetails'][$i]['table_name'] = "TBL ".($j+1);
+				$response['DiningDetails'][$i]['table_id'] = $j+1;
+				$response['DiningDetails'][$i]['capacity'] = 4;
+				$response['DiningDetails'][$i]['status'] = "Active";
 				$j++;
 			}
-			$response['error_code'] = 0;
-			$response['message'] = "success";
-			$response['zone_id'] = (int)$_REQUEST['zone_id'];
+			$response['response'] = 200;
+			$response['restaurant_id'] = 1;
+			$response['restaurant_name'] = "Karama Restaurant";
 		}
 		else{
 			$response['error_code'] = 11;
