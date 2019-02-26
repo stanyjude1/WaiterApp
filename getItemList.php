@@ -72,10 +72,10 @@ if(isset($_REQUEST['staff_id'])){
     for($i = 0; $i < sizeof($original_arr_temp); $i++)
     {
 
-      $json[]=["id"=>(string)$i,"item_code"=>(int)$i,"item_category"=>$cat[$i],"item_name"=>$item[$i],"item_price"=>(string)$price[$i],"item_gst"=>"5%","item_type"=>$food[$i],"item_genre"=>$veg[$i]];
+      $json[]=["id"=>(int)$i,"item_code"=>(int)$i,"item_category"=>$cat[$i],"item_name"=>$item[$i],"item_price"=>(string)$price[$i],"item_gst"=>"5%","item_type"=>$food[$i],"item_genre"=>$veg[$i]];
     }
 
-    $response_final = json_encode(array('response'=>200,"FoodItemDetails"=>$json));
+    $response_final = json_encode(array("FoodItemDetails"=>$json, 'response'=>200));
     echo $response_final;
     exit();
     }

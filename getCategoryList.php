@@ -20,10 +20,10 @@ if(isset($_REQUEST['staff_id'])){
         for($i=1;$i<sizeof($cat);$i++)
         {
 
-          $temp[]=["id"=>(string)$i,"category"=>$cat[$i]];
+          $temp[]=["id"=>(int)$i,"category"=>$cat[$i]];
         }
 
-        $response=json_encode(array('response'=>200,"FoodItemCategory"=>$temp));
+        $response=json_encode(array("FoodItemCategory"=>$temp,'response'=>200));
         echo $response;
     }
 }
