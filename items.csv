@@ -25,8 +25,8 @@ Starters,International,Grilled nimi's chicken,250,,Creation of chef's at BYLI,F,
 Starters,International,BYLI Nachos choice of chicken,265,,"Crisp corn tortilla topped with refined beans, served with soul creamspiced inslata and gaucamole",F,Non-Veg,24
 Starters,International,BYLI Nachos cajun cottage cheese,245,,"Crisp corn tortilla topped with refined beans, served with soul creamspiced inslata and gaucamole",F,Veg,25
 Starters,International,BYLI fish tank,390,,"A fresh selection of king prawns in batter,served with chips salads and dips",F,Non-Veg,26
-Homemade Soups,International,Non-veg,150,,,F,Non-Veg,27
-Homemade Soups,International,Veg,125,,,F,Veg,28
+Homemade Soups,International,Non-veg Soup,150,,,F,Non-Veg,27
+Homemade Soups,International,Veg Soup,125,,,F,Veg,28
 Salads,International,Garden salad,145,,"Mixed lettuce,tomato,spanish onion cucumber and carrot",F,Veg,29
 Salads,International,Greek salad,145,,"Mixed lettuce,tomato,spanish onion cucumber and carrot",F,Veg,30
 Salads,International,Ceaser salad,150,,"Lettuce,croutons,parmesan cheese & pickled veges in Ceaser dressing",F,Veg,31
@@ -134,7 +134,7 @@ Shake me up & Icecream Sundaes,International,Oreo cookie and fudge brownie medle
 Shake me up & Icecream Sundaes,International,Strawberry cheese cake shake,175,,Our strawberry cheeseccake is blended together with icecream,BA,Veg,133
 Shake me up & Icecream Sundaes,International,M&M shake,185,,"Get nostalgic with our childhood favourite,It still tastes good",BA,Veg,134
 Shake me up & Icecream Sundaes,International,Bailey's irish shake,175,,A shake inspired by famous Bailey's irish cream liqueur,BA,Veg,135
-Shake me up & Icecream Sundaes,International,Café rosh,180,,Freshly brewed coffee blende with ice cream and cinnamon cream,BA,Veg,136
+Shake me up & Icecream Sundaes,International,Cafï¿½ rosh,180,,Freshly brewed coffee blende with ice cream and cinnamon cream,BA,Veg,136
 Sundae,International,BYLI summit,200,,"Mountain off vanilla dark chocolate and choco almond praline covered by fudge,chocolate balls,whipped cream,jimmies,chocolate dipped cherry",F,Veg,137
 Sundae,International,Everlasting brothers,200,,"Like the suspension bridges of bangaluru,this majestic sundae with delecatable vailla and chocolate scoops",F,Veg,138
 Sundae,International,UB tower,210,,"A tribute to the tall modern tower that proudly defines the bangalore skyline,this tower of vanilla is a monument of itself",F,Veg,139
@@ -149,7 +149,7 @@ The cool byli boy,International,Mineral water,50,,,BA,Veg,147
 The cool byli boy,International,Aerated driknk,75,,Any flavour,BA,Veg,148
 The hot byli girl,International,Hot chocolate,125,,,F,Veg,149
 The hot byli girl,International,Chai latte(Home style),75,,,F,Veg,150
-The hot byli girl,International,Café latte,80,,,F,Veg,151
+The hot byli girl,International,Cafï¿½ latte,80,,,F,Veg,151
 The hot byli girl,International,Macchaito,85,,,F,Veg,152
 The hot byli girl,International,Expresso,65,,,F,Veg,153
 The hot byli girl,International,Cappuccino,85,,,F,Veg,154
