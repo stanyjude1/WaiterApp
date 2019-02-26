@@ -1,0 +1,170 @@
+Category Name,Cuisine Name,Item Name,Price,Img Path,Item description,F/BA,Veg/Non-Veg,Priority
+Starters,International,Sweet and spicy BYLI nuts,165,,Spiced with jalapeno onnion and coriander,F,Non-Veg,1
+Starters,International,Mozzarella In corazona,165,,Melted mazzerella enveloped in crispy slices of farmers bread and served with pesto and served along with minted apple dip,F,Veg,2
+Starters,International,California potato skins,175,,Scooped out roasted potato withn skin filled with cheedar cheese & with salami,F,Veg,3
+Starters,International,Guacamole(Seasonal),175,,Made fresh to order just tell how spicy you want,F,Non-Veg,4
+Starters,International,BYLI style potato,175,,Hot & crunchy potatoes  tossed with garlic rosemary with a side,F,Veg,5
+Starters,International,Masala garlic bread,155,,,F,Veg,6
+Starters,International,Quesadilla,175,,"Grilled flour tortilla stuffed with cheese tomato,pepper salsa and sour cream",F,Veg,7
+Starters,International,Quesadilla with chicken,200,,"Grilled flour tortilla stuffed with cheese tomato,pepper salsa and sour cream",F,Non-Veg,8
+Starters,International,Quesadilla with shrimp,215,,"Grilled flour tortilla stuffed with cheese tomato,pepper salsa and sour cream",F,Non-Veg,9
+Starters,International,Moraccan fried mushroom,195,,Button mushrooms marinated with moroccan spice and crumb fried.Served along cocktail dip,F,Veg,10
+Starters,International,Hummus & Pitas,200,,"Olive oil,cherry tomato diced with onions",F,Veg,11
+Starters,International,"Spinach,Artichoke & cream cheese dip",215,,Tender archokes and spinach blended strips,F,Veg,12
+Starters,International,3 Muskeeters,200,,Toasted french bread topped with famous veg topplings and basil mozerella,F,Veg,13
+Starters,International,Pulled chicken sliders,215,,Pulled chicken house made pimento cheese and lettuce,F,Non-Veg,14
+Starters,International,Hot BYLI Chicken,245,,Fresh red chilli and basil in oriental style,F,Non-Veg,15
+Starters,International,Devilishly & Deliciously Hot wings(DD Wings),245,,Traditional upstate american spicy chicken wings marinated and deep fried,F,Non-Veg,16
+Starters,International,Chef lai hing prawn,290,,Small bite size meat fried crispy and tossed in orientd stlye,F,Non-Veg,17
+Starters,International,Chef lai hing chicken,245,,Chef's at lunch munch his favourite,F,Non-Veg,18
+Starters,International,BYLU Calamari,280,,Chef's at lunch munch his favourite,F,Non-Veg,19
+Starters,International,Hungarian lamb chops,320,,Juicy lamb chops marinated with hungarian chilly pilled up on top in oriental style,F,Non-Veg,20
+Starters,International,Lagee-Gee style chicken,245,,Crispy prawns tossed in salt & pepper style with chef's twist,F,Non-Veg,21
+Starters,International,Lagee-Gee style prawn,290,,Crispy prawns tossed in salt & pepper style with chef's twist,F,Non-Veg,22
+Starters,International,Grilled nimi's chicken,250,,Creation of chef's at BYLI,F,Non-Veg,23
+Starters,International,BYLI Nachos choice of chicken,265,,"Crisp corn tortilla topped with refined beans, served with soul creamspiced inslata and gaucamole",F,Non-Veg,24
+Starters,International,BYLI Nachos cajun cottage cheese,245,,"Crisp corn tortilla topped with refined beans, served with soul creamspiced inslata and gaucamole",F,Veg,25
+Starters,International,BYLI fish tank,390,,"A fresh selection of king prawns in batter,served with chips salads and dips",F,Non-Veg,26
+Homemade Soups,International,Non-veg,150,,,F,Non-Veg,27
+Homemade Soups,International,Veg,125,,,F,Veg,28
+Salads,International,Garden salad,145,,"Mixed lettuce,tomato,spanish onion cucumber and carrot",F,Veg,29
+Salads,International,Greek salad,145,,"Mixed lettuce,tomato,spanish onion cucumber and carrot",F,Veg,30
+Salads,International,Ceaser salad,150,,"Lettuce,croutons,parmesan cheese & pickled veges in Ceaser dressing",F,Veg,31
+Salads,International,Ceaser salad top up with chicken anchovies and boiled egg,165,,,F,Non-Veg,32
+Salads,International,Warm chicken salad,175,,"Grilled chicken breast fillets,sesrved on a garden salad  with a homemade sweet chilli",F,Non-Veg,33
+"Burger, sandwich & wrap",International,Miss thing burger,200,,"Pimento,cheese spread,grilled chicken and fried onion",F,Non-Veg,34
+"Burger, sandwich & wrap",International,Up and at'em burger,225,,Sunny side-up egg crispy chicken and cheese,F,Non-Veg,35
+"Burger, sandwich & wrap",International,The a & A burger,225,,"Pulled chicken chilli,crispy chicken ham Byli aioli",F,Non-Veg,36
+"Burger, sandwich & wrap",International,KB burger,290,,Grilled lamb burger topped with pepper jack cheese and fire cheese,F,Non-Veg,37
+"Burger, sandwich & wrap",International,Club sandwich,295,,"Grilled chicken breast with avocado,lettuce,tomato,cheese,onion and aioli",F,Non-Veg,38
+"Burger, sandwich & wrap",International,Croque madame,230,,"Grilled bread with chicken ham,cheese,jalapeno and egg well done",F,Non-Veg,39
+"Burger, sandwich & wrap",International,Herb remix,200,,Grilled bread with colby jack cheese with home made herb roasted veg mix,F,Veg,40
+"Burger, sandwich & wrap",International,Uptown tuna melt,270,,"Tuna salad,tomato jack & cheddar cheese open faceed grilled sundried bread",F,Non-Veg,41
+"Burger, sandwich & wrap",International,Grilled vegetable melt,245,,"Mushroom,sweet red peppercucumber on grilled ciabeta",F,Veg,42
+"Burger, sandwich & wrap",International,The BYLE roti wrap veg,175,,Seasonal veges wraped in rotibread,F,Veg,43
+"Burger, sandwich & wrap",International,The BYLE roti wrap chicken,245,,Pema chicken and egg,F,Non-Veg,44
+"Burger, sandwich & wrap",International,The BYLE roti wrap shrimp and egg,255,,Grilled sriracha shrimps and eggs,F,Non-Veg,45
+Tacos,International,Sauteed Shrimp,320,,"Sweet chilli sauce,cabbage slaw and colby jack cheese",F,Veg,46
+Tacos,International,Chicken,300,,"Grilled marinated chicken,avacadod,pico de gallo and chipote sour cream",F,Non-Veg,47
+Tacos,International,Vegetarian,295,,"Sweet corn,potatoes,onions and roasted corn aoili",F,Veg,48
+Pasta,International,Napolitana,225,,A rich tomato sauce with pesto,F,Veg,49
+Pasta,International,Alredo sauce,245,,,F,Veg,50
+Pasta,International,Bolognese,300,,Traditional tomato and lamb meat sauce,F,Non-Veg,51
+Pasta,International,Carbonara,230,,"Panfried chicken salami,onion,parmesion cheese and cream sauce",F,Non-Veg,52
+Pasta,International,Co pollo,245,,"Panfried chicken ham,oninon,cicken breast pieces,mushroom and cream",F,Non-Veg,53
+Pasta,International,Pescatore,290,,"A fresh selection of seafood in a crean,napoli and garlic sauce",F,Non-Veg,54
+Pasta,International,Matriciana,240,,"Napoli sauce,hot chicken salami,crisp chicken and chili",F,Non-Veg,55
+Pasta,International,Lasagna,300,,Traditional with bechamei and bolognese sauce,F,Veg,56
+Pasta,International,Chicken pesto,225,,"Pan tossed chicken breast,cherry tomato and basil pesto sauce",F,Non-Veg,57
+Pasta,International,The BYLI branko,300,,"Onion,garlic,pesto,tiger prawns and cream",F,Non-Veg,58
+Pasta,International,Baked cheesy seafood Macroni,300,,A creamy cheese macroni baked with a curried seafood twist,F,Non-Veg,59
+Pasta,International,Fiery mexican pema sauce with roasted chicken,255,,Roasted chicken with roast veges in a fiery green chilli sauce,F,Non-Veg,60
+Pasta,International,Grilled chicken in rosso pesto,245,,Grilled chicken tossed with sundry tomato & olives in roasted red peppers pesto sauce,F,Non-Veg,61
+Risotto,International,Chicken rosotto,290,,"Chicken brest pieces,mushrooms,semi dried tomarto and spinach tossed in cram and chicken stock",F,Non-Veg,62
+Risotto,International,Seafood rositto,340,,A fresh selection of sea food in a cream or napoli sauce,F,Non-Veg,63
+Risotto,International,Vegetarian risotto,250,,As fresh as byli,F,Veg,64
+Risotto,International,Chicken  parmigiana,320,,"Whole chicken breast,crumed and topped with cheese,served withchips and salad",F,Non-Veg,65
+Risotto,International,Chicken cacciatore,320,,Baby chicken fillets sealed on the grilled braised in a traditional sauce with a fresh garden salad,F,Non-Veg,66
+Risotto,International,Souvlaki,340,,Grilled tender pieces of lamb fillets on greek sald and chips,F,Non-Veg,67
+Risotto,International,Meatballs,340,,"Homemade italian style meatballs with aa napoli sauce and parmesan,or beans",F,Non-Veg,68
+Risotto,International,Chilli garlic prawn,350,,,F,Non-Veg,69
+Risotto,International,Chilli garlic chicken,310,,,F,Non-Veg,70
+Risotto,International,Chilli garlic veg,275,,Served on fried rice & salad,F,Veg,71
+Risotto,International,Chicken chivichanga,310,,"Flour tortilla stuffed with colby jack cheese, chicken and jalapenos,rolled and deep fried and lantino set",F,Non-Veg,72
+Risotto,International,Chicken alla panna,310,,"Whole chicken breast,crumbed and topped with mushroom sauce servedwith spanish rice",F,Non-Veg,73
+Risotto,International,Vegetable veracruzana,270,,Blackened cottage cheese served on a bed of Spanish rice along with cherry cream sauce.,F,Veg,74
+Risotto,International,Bonded S&M sisters,275,,"Stuffed raviolis,spinach & ricotta cheese,roasted bell pepper & zucchini with cacciator sauce",F,Veg,75
+Risotto,International,Thai red curry prawns,350,,All curries and sauces are served with steamed rice and salad,F,Non-Veg,76
+Risotto,International,Thai red curry mixed sea food,355,,All curries and sauces are served with steamed rice and salad,F,Non-Veg,77
+Risotto,International,Thai red curry chicken,290,,All curries and sauces are served with steamed rice and salad,F,Non-Veg,78
+Risotto,International,Thai red curry oriental veges with pok choy,275,,All curries and sauces are served with steamed rice and salad,F,Veg,79
+Risotto,International,Nasi goreng prawns,350,,,F,Non-Veg,80
+Risotto,International,Nasi goreng chicken,295,,,F,Non-Veg,81
+Risotto,International,Nasi goreng veges with pokchoy,275,,,F,Veg,82
+Risotto,International,Fajitos,255,,"Sauteed onions,peppers,topped with sour cream and gaucamole",F,Veg,83
+Risotto,International,Fajitos chicken,90,,"Sauteed onions,peppers,topped with sour cream and gaucamole",F,Non-Veg,84
+Risotto,International,Fajitos shrimp,100,,"Sauteed onions,peppers,topped with sour cream and gaucamole",F,Non-Veg,85
+Pizza,International,Famous byli crust,340,,"Tomato,cheese,roasted chicken,herbs and garlic",F,Non-Veg,86
+Pizza,International,margherita,275,,"Tomato,cheese,basil and oregano",F,Veg,87
+Pizza,International,Georgios,290,,"Tomato,cheese,green capcicum,black olives,herbs and garlic",F,Veg,88
+Pizza,International,Vegetarian,275,,"Tomato,cheese,mushroom,capsicum,pineapple,herbs and garlic",F,Veg,89
+Pizza,International,American,295,,"Tomato,cheese and chicken sausage",F,Non-Veg,90
+Pizza,International,Sparky special,295,,"Tomato,cheese,chicken ham,chicken salami",F,Non-Veg,91
+Pizza,International,Aussie,290,,"Tomato,cheese,grilled chicken",F,Non-Veg,92
+Pizza,International,Ali baba,295,,"Tomato,cheese,chicken tandori,cheese,onion and garlic",F,Non-Veg,93
+Pizza,International,Zesto(Hot),315,,"Tomato,hot chicken salami,olives and chilli",F,Non-Veg,94
+Pizza,International,Mexicana,320,,"Tomato,cheese,chicken ham,hot chicken salami,olives,chilli and garlilc",F,Non-Veg,95
+Pizza,International,The lot,390,,"Tomato,cheese,chicken ham,hot chicken salami,olives,chilli and garlilc",F,Non-Veg,96
+Pizza,International,BBQ chicken,370,,"Tomato,cheese,onions and BBQ chicken ",F,Non-Veg,97
+Pizza,International,Meat lovers,390,,"Tomato,cheese,chicken ham,mushroom",F,Non-Veg,98
+Pizza,International,Fun guy,320,,"Tomato,cheese,onioni,marinated lamb mince",F,Non-Veg,99
+Pizza,International,BYLI burr,390,,"Tomato,cheese,king prawn,chillli toased roasted,pesto and garlic",F,Non-Veg,100
+From the grill,International,Grilled king fish steak,370,,Marinated with yellow chillil & lime served with house salad,F,Non-Veg,101
+From the grill,International,Grilled herb buttered prawns,390,,Grillled jumbo prawns rubbed with marinated,F,Non-Veg,102
+From the grill,International,Grilled fish(Catch of the day),385,,Grillled fish served with creamy wild mushroom sauce on a bed of butter english greens,F,Non-Veg,103
+From the grill,International,Cheesy chicken fungi,385,,Grilled boneless secculent chicken breast smoothered with homemade BBQ sauce,F,Non-Veg,104
+From the grill,International,Chicken strips with chipolates sausage,285,,A taste of orient in your own local grilled chicken supreme chicken sausages,F,Non-Veg,105
+From the grill,International,Chicken shish,295,,"Minced,chicken,bellpepper and onions served along curried spinach",F,Non-Veg,106
+From the grill,International,Grilled lamb shish,390,,Grilled flattened lamb mince marinatedx in homemade spices and grilled,F,Non-Veg,107
+Temptations,International,Baked cheese cake blue berry,220,,Experience more varities at your dessert counter,F,Veg,108
+Temptations,International,Chocolate nimises,250,,Experience more varities at your dessert counter,F,Veg,109
+Temptations,International,Tiramisu,275,,Experience more varities at your dessert counter,F,Veg,110
+Temptations,International,Twin chocolate Marquise,275,,Experience more varities at your dessert counter,F,Veg,111
+Mocktail Bar,International,Virgin cosmopolitan,160,,May be you call this something else if you serve it to your kids,BA,Veg,112
+Mocktail Bar,International,Roman holiday mocktail,120,,Love the sophisticated flavours in this mocktails and it's inately BYLI,BA,Veg,113
+Mocktail Bar,International,Cranberry kiss,135,,Mint and lime bring out in the best in cranberry juice,BA,Veg,114
+Mocktail Bar,International,The s&m sisters,130,,Bubbly and accessible just as its namesake,BA,Veg,115
+Mocktail Bar,International,Tequilla sunrise mocktail,135,,This orange juice based cocktail is exactly what your brunch needs,BA,Veg,116
+Mocktail Bar,International,Pomberry bellani,140,,"Pomegranate syrup sweet & sour,ginger ale",BA,Veg,117
+Mocktail Bar,International,Italian cream soda,145,,"Watermelon flavoured syrup,passion fruit flavoured syrup",BA,Veg,118
+Mocktail Bar,International,Abi's crush,135,,"Pineapple crush,soda,vanilla ice cream with sugar syrup",BA,Veg,119
+Mocktail Bar,International,Cinderella ammu,125,,"Pineapple juice,orange juice,lemon juice ,soda and dash of grenadine",BA,Veg,120
+Mocktail Bar,International,Just peachy,145,,"Peach apricot crush,chocolate sauce,fresh cream",BA,Veg,121
+Mocktail Bar,International,Blue sea red sky,175,,"Blue curacua,lemon squeeze half and stir,mango juice(bild up)",BA,Veg,122
+Mocktail Bar,International,"""Adi""rock you like a hhurricane",125,,"Pineapple juice,passion fruit syrup,lemon squuece half and stir",BA,Veg,123
+Mocktail Bar,International,Russian parikat,145,,Strawberry purely blended with rock ice(frozen),BA,Veg,124
+Mocktail Bar,International,Mexican kiss,145,,"Mango juice,hersey's syrup,fresh cream,coffe 3 pinch",BA,Veg,125
+Mocktail Bar,International,Melon melody,145,,"Orange juice melon syrup,vanilla icecream scoops",BA,Veg,126
+Mocktail Bar,International,Stay cool,155,,Lemon wheel fresh mint sprite,BA,Veg,127
+Shake me up & Icecream Sundaes,International,Tropical smoothie,145,,A wild mix mango and orange fruit,BA,Veg,128
+Shake me up & Icecream Sundaes,International,Berry blast,150,,"Strawberry,raspberry,blueberry",BA,Veg,129
+Shake me up & Icecream Sundaes,International,Lindt chocolate shake,190,,100% pujre lindt chocolate yupl I have to try this,BA,Veg,130
+Shake me up & Icecream Sundaes,International,Toblerone dream shake,190,,Toblerone chunks blended with chocolate ice cream and nougat,BA,Veg,131
+Shake me up & Icecream Sundaes,International,Oreo cookie and fudge brownie medley,195,,Vanilla icecream blended with homemade fudge,BA,Veg,132
+Shake me up & Icecream Sundaes,International,Strawberry cheese cake shake,175,,Our strawberry cheeseccake is blended together with icecream,BA,Veg,133
+Shake me up & Icecream Sundaes,International,M&M shake,185,,"Get nostalgic with our childhood favourite,It still tastes good",BA,Veg,134
+Shake me up & Icecream Sundaes,International,Bailey's irish shake,175,,A shake inspired by famous Bailey's irish cream liqueur,BA,Veg,135
+Shake me up & Icecream Sundaes,International,Café rosh,180,,Freshly brewed coffee blende with ice cream and cinnamon cream,BA,Veg,136
+Sundae,International,BYLI summit,200,,"Mountain off vanilla dark chocolate and choco almond praline covered by fudge,chocolate balls,whipped cream,jimmies,chocolate dipped cherry",F,Veg,137
+Sundae,International,Everlasting brothers,200,,"Like the suspension bridges of bangaluru,this majestic sundae with delecatable vailla and chocolate scoops",F,Veg,138
+Sundae,International,UB tower,210,,"A tribute to the tall modern tower that proudly defines the bangalore skyline,this tower of vanilla is a monument of itself",F,Veg,139
+Sundae,International,Triple chocolate sonu & monu,200,,"Chocolate mousse,rock@heart",F,Veg,140
+Sundae,International,Sticky chewy choe fantasy,195,,Sticky chewy chocolate with hot fudge,F,Veg,141
+Sundae,International,Big rock chocolate mountain,185,,"""3"" flavoured chocolate with a hot fudge and chocolate chip",F,Veg,142
+The cool byli boy,International,Iced tea lemon or peach,125,,,BA,Veg,143
+The cool byli boy,International,Canneed juice,100,,"Orange,pineapple,mango and cranberry",BA,Veg,144
+The cool byli boy,International,Iced tea/Iced chocolate,125,,,BA,Veg,145
+The cool byli boy,International,Seasonal fresh juice,125,,,BA,Veg,146
+The cool byli boy,International,Mineral water,50,,,BA,Veg,147
+The cool byli boy,International,Aerated driknk,75,,Any flavour,BA,Veg,148
+The hot byli girl,International,Hot chocolate,125,,,F,Veg,149
+The hot byli girl,International,Chai latte(Home style),75,,,F,Veg,150
+The hot byli girl,International,Café latte,80,,,F,Veg,151
+The hot byli girl,International,Macchaito,85,,,F,Veg,152
+The hot byli girl,International,Expresso,65,,,F,Veg,153
+The hot byli girl,International,Cappuccino,85,,,F,Veg,154
+The hot byli girl,International,Flat white,80,,,F,Veg,155
+The hot byli girl,International,Long black,85,,,F,Veg,156
+The hot byli girl,International,Extras-Decaf,80,,,F,Veg,157
+The hot byli girl,International,Double shot,90,,,F,Veg,158
+The hot byli girl,International,Mocha/Caramel,100,,,F,Veg,159
+The hot byli girl,International,Tea(Tea bags),90,,"Earl grey,english breakfast,assam tea and ginger,darjeeling,green tea and chamomile",F,Veg,160
+Open omelettes,International,HRBR chicken,170,,"Cheese,spinach,green chillies,onion,coriander and tomato",F,Non-Veg,161
+Open omelettes,International,HRBR veggie,160,,"Jack & colby cheese,mushroom,spinach,onion and tomato,served with toast",F,Veg,162
+Open omelettes,International,The viking boys,155,,Two slices of bread dipped in omelette batter served with brown potatoes,F,Veg,163
+Open omelettes,International,Big byle breakfast,295,,"Eggs with chicken salami cocktails chicken sausage,mushrooms,hash browns and tomatoes served on toast",F,Non-Veg,164
+Open omelettes,International,The flapper,175,,"A pancake,two eggs and two strips of crisp chicken",F,Non-Veg,165
+Open omelettes,International,Plain 'N Simple pancake,155,,"A single,simple pancake",F,Veg,166
+Open omelettes,International,That girl,155,,"Three stack pancakes served with butterscotch poached strawberries,bananas",F,Veg,167
+Open omelettes,International,Waffle Eggspress,175,,A golden belgain waffle two eggs and two strips of crisp chicken,F,Non-Veg,168
+Open omelettes,International,It's ok to waffle with BYLE,155,,A single waffle with maple syrup & sugar dust,F,Veg,169
