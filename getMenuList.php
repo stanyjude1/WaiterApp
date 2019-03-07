@@ -7,11 +7,12 @@ $response = array();
 $cat_arr = ['Starters', 'Homemade Soups','Salads','Burger, sandwich & wrap','Tacos','Pasta','Risotto','Pizza','From the grill','Temptations','Mocktail Bar','Shake me up & Icecream Sundaes','Sundae','The cool byli boy','The hot byli girl','Open omelettes'];
 $row = 0;
 
-for($i = 0 ; $i < sizeof($cat_arr); $i++){
+
+if(isset($_REQUEST['staff_id'])){
+    for($i = 0 ; $i < sizeof($cat_arr); $i++){
     $response[$i]['category'] = (string)$cat_arr[$i];
     $response[$i]['item'] = array();
-}
-if(isset($_REQUEST['staff_id'])){
+    }
     if (($handle = fopen("items.csv", "r")) !== FALSE) {
       while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
         if($row == 0){
