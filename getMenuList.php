@@ -11,7 +11,7 @@ for($i = 0 ; $i < sizeof($cat_arr); $i++){
     $response[$i]['category'] = (string)$cat_arr[$i];
     $response[$i]['item'] = array();
 }
-if(!isset($_REQUEST['staff_id'])){
+if(isset($_REQUEST['staff_id'])){
     if (($handle = fopen("items.csv", "r")) !== FALSE) {
       while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
         if($row == 0){
@@ -41,14 +41,8 @@ if(!isset($_REQUEST['staff_id'])){
 else{
     $response['error_code'] = 3;
     $response['message'] = 'staff_id is missing';
-    echo json_encode($response,JSON_UNESCAPED_SLASHES);
 }
-    echo json_encode($response,JSON_UNESCAPED_SLASHES);
-
-
-
-
-
+echo json_encode($response,JSON_UNESCAPED_SLASHES);
 exit();
 
 ?>
