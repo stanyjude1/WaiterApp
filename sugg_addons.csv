@@ -1,11 +1,11 @@
-Item name,Add-ons
-Sweet and spicy BYLI nuts,Crispy chicken
-Masala garlic bread,Cheese/Chilly
-The flapper,Crisp chicken
-The flapper,Suasage patties
-Plain 'N simple pancake,Maple syrup
-That girl,Strawberries
-That girl,Bananas
-That girl,Vanilla ice cream
-Waffle eggspress,Crisp chicken
-Waffle eggspress,Sausage patties
+Item name,Add-ons,,,,
+Sweet and spicy BYLI nuts,Crispy chicken,50,F,Nonveg,1
+Masala garlic bread,Cheese/Chilly,50,F,Veg,2
+The flapper,Crisp chicken,50,F,Nonveg,1
+The flapper,Suasage patties,50,F,Nonveg,3
+Plain 'N simple pancake,Maple syrup,30,F,Veg,4
+That girl,Strawberries,50,F,Veg,5
+That girl,Bananas,30,F,Veg,6
+That girl,Vanilla ice cream,30,F,Veg,7
+Waffle eggspress,Crisp chicken,50,F,Nonveg,1
+Waffle eggspress,Sausage patties,50,F,Nonveg,3
