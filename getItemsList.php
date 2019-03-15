@@ -60,7 +60,7 @@ if(!isset($_REQUEST['staff_id'])){
                     $row_data['RestaurantMenuExtraSection'] = array();
 
                     if($data[3] != ''){
-                        if(!isset($row_data['RestaurantMenuExtraSection'][0]['id'])){
+                        if(!isset($row_data['RestaurantMenuExtraSection'][0]['id']) && !isset($row_data['RestaurantMenuExtraSection'][1]['id'])){
                             $row_data['RestaurantMenuExtraSection'][0]['id'] = "991";
                             $row_data['RestaurantMenuExtraSection'][0]['name']                    = "Full";
                             $row_data['RestaurantMenuExtraSection'][0]['restaurant_id']           = "2";
@@ -68,6 +68,14 @@ if(!isset($_REQUEST['staff_id'])){
                             $row_data['RestaurantMenuExtraSection'][0]['restaurant_menu_item_id'] = "4428";
                             $row_data['RestaurantMenuExtraSection'][0]['required']                = "1";
                             $row_data['RestaurantMenuExtraSection'][0]['RestaurantMenuExtraItem'] = array();
+
+                            $row_data['RestaurantMenuExtraSection'][1]['id'] = "991";
+                            $row_data['RestaurantMenuExtraSection'][1]['name']                 = "Additional";
+                            $row_data['RestaurantMenuExtraSection'][1]['restaurant_id']           = "2";
+                            $row_data['RestaurantMenuExtraSection'][1]['active']                  = "1";
+                            $row_data['RestaurantMenuExtraSection'][1]['restaurant_menu_item_id'] = "4428";
+                            $row_data['RestaurantMenuExtraSection'][1]['required']                = "1";
+                            $row_data['RestaurantMenuExtraSection'][1]['RestaurantMenuExtraItem'] = array();
                         }
                         
                         if (($handle2 = fopen("items.csv", "r")) !== FALSE) {
@@ -89,8 +97,16 @@ if(!isset($_REQUEST['staff_id'])){
 
                     for($j = 1; $j < sizeof($add_on_arr); $j++){
                         if($add_on_arr[$j][0] == $row_data['name']){
-                            // print_r($row_data['name']." has an addon as ".$add_on_arr[$j][1]."<br>");
-                            if(!isset($row_data['RestaurantMenuExtraSection'][1]['id'])){
+
+                            if(!isset($row_data['RestaurantMenuExtraSection'][0]['id']) && !isset($row_data['RestaurantMenuExtraSection'][1]['id'])){
+                                $row_data['RestaurantMenuExtraSection'][0]['id'] = "991";
+                                $row_data['RestaurantMenuExtraSection'][0]['name']                    = "Full";
+                                $row_data['RestaurantMenuExtraSection'][0]['restaurant_id']           = "2";
+                                $row_data['RestaurantMenuExtraSection'][0]['active']                  = "1";
+                                $row_data['RestaurantMenuExtraSection'][0]['restaurant_menu_item_id'] = "4428";
+                                $row_data['RestaurantMenuExtraSection'][0]['required']                = "1";
+                                $row_data['RestaurantMenuExtraSection'][0]['RestaurantMenuExtraItem'] = array();
+
                                 $row_data['RestaurantMenuExtraSection'][1]['id'] = "991";
                                 $row_data['RestaurantMenuExtraSection'][1]['name']                 = "Additional";
                                 $row_data['RestaurantMenuExtraSection'][1]['restaurant_id']           = "2";
@@ -99,7 +115,7 @@ if(!isset($_REQUEST['staff_id'])){
                                 $row_data['RestaurantMenuExtraSection'][1]['required']                = "1";
                                 $row_data['RestaurantMenuExtraSection'][1]['RestaurantMenuExtraItem'] = array();
                             }
-
+                            // print_r($row_data['name']." has an addon as ".$add_on_arr[$j][1]."<br>");
                             $row3_data['id'] = "1";
                             $row3_data['name'] = $add_on_arr[$j][1];
                             $row3_data['price'] = $add_on_arr[$j][2];
