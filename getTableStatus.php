@@ -1,6 +1,6 @@
 <?php
 
-if(!isset($_REQUEST['staff_id'])){
+if(isset($_REQUEST['staff_id'])){
     $response["DiningDetails"] = array();
     for ($j=0; $j < 10 ; $j++) { 
         $names = range("A","Z");

@@ -8,7 +8,7 @@ $cat_arr = ['Starters', 'Homemade Soups','Salads','Burger, sandwich & wrap','Tac
 $row = 0;
 $row1 = 0;
 
-if(!isset($_REQUEST['staff_id'])){
+if(isset($_REQUEST['staff_id'])){
     $response["code"] = 200;
     $response["response"] = array();
     for($i = 0; $i < sizeof($cat_arr); $i++){
