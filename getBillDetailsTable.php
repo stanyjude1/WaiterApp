@@ -1,6 +1,6 @@
 <?php
 
-if(!isset($_REQUEST['staff_id'])){
+if(isset($_REQUEST['staff_id'])){
     //$response["OrderDetails"] = array();
     $response["response"] = 200;
     $response["restaurant_id"] = "1";
