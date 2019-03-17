@@ -10,6 +10,7 @@ if(isset($_REQUEST['staff_id'])){
         $ids = range(1,100);
         $response["table_name"] = "TBL ".$names[$j];
         $response["table_id"]   = (int)($j+1);
+        $response["bill_id"] = "121";
         $response["ordered_categories"] = "Starters";
         $response["ordered_items"] = "Chicken Kebab";
         $response["ordered_items_qty"]  = "1";
