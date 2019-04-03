@@ -1,8 +1,10 @@
 <?php
+$json = file_get_contents('php://input');
+$values = json_decode($json, true);
 
-if(isset($_REQUEST['placeorder'])){
+if(isset($values['placeorder'])){
    
-   $placeorder = json_decode($_REQUEST['placeorder']);
+   $placeorder = $values['placeorder'];
    
    if(isset($placeorder['zone_id'])){
       if(isset($placeorder['table_id'])){
