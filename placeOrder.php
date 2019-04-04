@@ -5,8 +5,8 @@ $values = json_decode($json, true);
 if(isset($values['jvalue'])){
    if(isset($values['jvalue']['placeorder'])){
       
-      $placeorder = $values['placeorder'];
-      
+      $placeorder = $values['jvalue']['placeorder'];
+      //var_dump($placeorder);
       if(isset($placeorder['zone_id'])){
          if(isset($placeorder['table_id'])){
             if(sizeof($placeorder['dishes']) > 0){
