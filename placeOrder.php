@@ -2,7 +2,8 @@
 $json = file_get_contents('php://input');
 $values = json_decode($json, true);
 
-if(isset($values['placeorder'])){
+if(isset($values['jvalue'])){
+if(isset($values['jvalue']['placeorder'])){
    
    $placeorder = $values['placeorder'];
    
@@ -31,6 +32,10 @@ if(isset($values['placeorder'])){
 else{
     $response['error_code'] = 3;
     $response['message'] = 'placeorder is missing';
+}
+else{
+    $response['error_code'] = 3;
+    $response['message'] = 'jvalue is missing';
 }
 
 echo json_encode($response,JSON_UNESCAPED_SLASHES);
