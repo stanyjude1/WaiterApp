@@ -27,15 +27,3 @@ else{
 }
 
 ?>
-
-{  
-   "Order_Info":{ 
-       
-       "orderid":"12",
-       "kot":"1",
-       "table_id":"TBL89"
-        
-   }
-
-
-}
