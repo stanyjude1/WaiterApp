@@ -8,7 +8,12 @@ if($jarray != ''){
 	$jsonDecoded =  json_decode($jarray);
 
 	$placeorder = $jsonDecoded->placeorder;
-	$order['Order_Info'] 		= $placeorder;
+	if($placeorder != ''){
+		$response['orderid'] = rand(1,100);
+		$response['kot'] = rand(1,100);
+		$response['table_id'] = "TBL_01";
+	}
+	$order['Order_Info'] 		= $response;
 
 	echo json_encode($order);
 	exit();
@@ -22,3 +27,15 @@ else{
 }
 
 ?>
+
+{  
+   "Order_Info":{ 
+       
+       "orderid":"12",
+       "kot":"1",
+       "table_id":"TBL89"
+        
+   }
+
+
+}
