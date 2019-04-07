@@ -3,29 +3,26 @@
 $row = 1;
 $original_arr= array();
 $cat = array();
+$cat_arr = array("KABAB’S", "BIRYANI", "CHINESE", "GRAVY", "ROTIS", "MUTTON", "BONELESS", "SEAFOOD", "ROLLS", "VEGETARIAN", "SNACKERS", "TANDOORI");
 
 if(isset($_REQUEST['staff_id'])){
-    if (($handle = fopen("category.csv", "r")) !== FALSE) {
-        while (($data = fgetcsv($handle)) !== FALSE) {
-            $num = count($data);
-            $row++;
-            array_push($original_arr, $data);
-            array_push($cat, $data[0]);
-            
-        }
-        fclose($handle);
-        $cat=array_unique($cat);
-        $temp=array();
-        
-        for($i=1;$i<sizeof($cat);$i++)
-        {
-
-          $temp[]=["id"=>(int)$i,"category"=>$cat[$i]];
-        }
-
-        $response=json_encode(array("FoodItemCategory"=>$temp,'response'=>200));
-        echo $response;
+    $i = 1;
+    $j = 0;
+    $temp = array();
+    foreach ($cat_arr as $catname) {
+        $temp[$j]=["cid"=>(int)$i,"cname"=>$catname, "cdesc"=>"","image_path"=>"","priority"=>"0"];
+        $i++;
+        $j++;        
     }
+
+    $response["category_list"] = $temp;
+    $response["recommendItem"] = "0";
+    $response["tdySplItem"] = "0";
+    $response["msg"] = "Success";
+    $response["status"] = 1;
+
+    $response=json_encode($response);
+    echo $response;
 }
 else{
     $response['error_code'] = 3;
