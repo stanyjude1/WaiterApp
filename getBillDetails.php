@@ -1,6 +1,8 @@
 <?php
 
 if(isset($_REQUEST['staff_id'])){
+    if(isset($_REQUEST['branch_id'])){
+        if(isset($_REQUEST['table_id'])){
     $n = rand(1,5);
     //$response["OrderDetails"] = array();
     $response["response"] = 200;
@@ -17,6 +19,15 @@ if(isset($_REQUEST['staff_id'])){
     }
     //$response["OrderDetails"] = $table_details;
     
+}
+else{
+    $response['error_code'] = 3;
+    $response['message'] = 'table_id is missing';
+}}
+else{
+    $response['error_code'] = 3;
+    $response['message'] = 'branch_id is missing';
+}
 }
 else{
     $response['error_code'] = 3;
