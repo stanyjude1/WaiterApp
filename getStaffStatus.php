@@ -1,9 +1,15 @@
-<?php
+.<?php
+include "connPDO.php";
 
 if(isset($_REQUEST['staff_id'])){
 	$staff_id = (int)$_REQUEST['staff_id'];
-	if($staff_id > 0){
-		if($staff_id < 11){
+	$stmt = $conn->prepare("Select * from users where id=\"$staff_id\"");	
+	$stmt->execute();
+    $result=$stmt->setFetchMode(PDO::FETCH_ASSOC);
+   	$row=$stmt->fetch();
+	if($row!=null){
+		$status=$row['status'];
+		if($status){
 			$response['staff_status'] = 1;
 			$response['error_code'] = 0;
 			$response['message'] = 'success';
