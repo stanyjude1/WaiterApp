@@ -15,10 +15,15 @@ if(isset($_REQUEST['username'])){
     		$row=$stmt->fetch();
 			if($row!=null){
 				$response['error_code'] = 0;
-				$response['message'] = "success";
 				$response['res_id'] = $row['id'];
 				$response['res_name'] = $row['name'];
-				$response['status'] = $row['status'];
+				if($row['status']){
+					$response['status'] = 200;
+					$response['message'] = "active staff";
+ 				}else{
+					$response['status'] = 401;
+					$response['message'] = "inactive staff";
+				}
 			}
 			else{
 				$response['error_code'] = 7;

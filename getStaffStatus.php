@@ -1,4 +1,4 @@
-.<?php
+<?php
 include "connPDO.php";
 
 if(isset($_REQUEST['staff_id'])){
@@ -13,11 +13,13 @@ if(isset($_REQUEST['staff_id'])){
 			$response['staff_status'] = 1;
 			$response['error_code'] = 0;
 			$response['message'] = 'success';
+			$response['status'] = 200;
 			$response['staff_id'] = $staff_id;
 		}
 		else{
 			$response['staff_status'] = 0;
 			$response['error_code'] = 1;
+			$response['status'] = 401;
 			$response['message'] = 'Staff is Inactive';
 			$response['staff_id'] = $staff_id;			
 		}
