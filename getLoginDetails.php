@@ -1,23 +1,24 @@
 <?php
-
+include "connPDO.php";
 if(isset($_REQUEST['username'])){
 	if(isset($_REQUEST['password'])){
 		$username = $_REQUEST['username'];
 		$password = $_REQUEST['password'];
-
-		if($username == "waiter_one" || $username == "waiter_two"){
-			if($password == "admin"){
+		$stmt = $conn->prepare("Select * from users where username=\"$username\"");
+    	$stmt->execute();
+    	$result=$stmt->setFetchMode(PDO::FETCH_ASSOC);
+    	$row=$stmt->fetch();
+		if($row!=null){
+			$stmt = $conn->prepare("Select * from users where username=\"$username\"and password=\"$password\"");
+    		$stmt->execute();
+    		$result=$stmt->setFetchMode(PDO::FETCH_ASSOC);
+    		$row=$stmt->fetch();
+			if($row!=null){
 				$response['error_code'] = 0;
 				$response['message'] = "success";
-				$response['res_id'] = "1";
-				$response['res_name'] = "Karama Restaurant";
-
-				if($username == "waiter_one"){
-					$response['staff_id'] = 1;
-				}
-				else{
-					$response['staff_id'] = 2;
-				}
+				$response['res_id'] = $row['id'];
+				$response['res_name'] = $row['name'];
+				$response['status'] = $row['status'];
 			}
 			else{
 				$response['error_code'] = 7;
