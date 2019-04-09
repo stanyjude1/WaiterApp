@@ -18,10 +18,10 @@ if(isset($_REQUEST['username'])){
 				$response['res_id'] = $row['id'];
 				$response['res_name'] = $row['name'];
 				if($row['status']){
-					$response['status'] = 200;
+					$response['response'] = 200;
 					$response['message'] = "active staff";
  				}else{
-					$response['status'] = 401;
+					$response['response'] = 401;
 					$response['message'] = "inactive staff";
 				}
 			}
