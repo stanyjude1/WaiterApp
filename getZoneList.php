@@ -20,6 +20,10 @@ if(isset($_REQUEST['staff_id'])){
 		$response['response'] = 200;
 		$response['restaurant_id'] = 1;
 		$response['restaurant_name'] = "Karama Restaurant";
+	}
+	else{
+		$response['error_code'] = 2;
+		$response['message'] = 'Invalid Staff ID';
 	}	
 }
 else{
