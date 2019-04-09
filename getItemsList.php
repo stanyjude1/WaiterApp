@@ -8,6 +8,13 @@ $cat_arr = array("KABAB’S", "BIRYANI", "CHINESE", "GRAVY", "ROTIS", "MUTTON", 
 $row = 0;
 $row1 = 0;
 
+if(!isset($_REQUEST['branch_id'])){
+    $response['error_code'] = 3;
+    $response['message'] = 'branch_id is missing';
+    echo json_encode($response,JSON_UNESCAPED_SLASHES);
+    exit();
+}
+
 if(!isset($_REQUEST['cat_id'])){
     $response['error_code'] = 4;
     $response['message'] = 'cat_id is missing';

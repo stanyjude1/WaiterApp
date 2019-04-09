@@ -1,6 +1,13 @@
 <?php
 
 if(isset($_REQUEST['staff_id'])){
+	if(!isset($_REQUEST['branch_id'])){
+        $response['error_code'] = 3;
+        $response['message'] = 'branch_id is missing';
+        echo json_encode($response,JSON_UNESCAPED_SLASHES);
+        exit();
+    }
+    
 	$staff_id = (int)$_REQUEST['staff_id'];
 	if($staff_id > 0){
 		if($staff_id < 11){

@@ -11,6 +11,7 @@ if(isset($_REQUEST['username'])){
 				$response['message'] = "success";
 				$response['res_id'] = "1";
 				$response['res_name'] = "Karama Restaurant";
+				$response['branch_id'] = 1;
 
 				if($username == "waiter_one"){
 					$response['staff_id'] = 1;

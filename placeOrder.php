@@ -3,6 +3,12 @@ $json = file_get_contents('php://input');
 $values = json_decode($json, true);
 
 if(isset($values['jvalue'])){
+  if(!isset($values['jvalue']['branch_id'])){
+    $response['error_code'] = 3;
+    $response['message'] = 'branch_id is missing';
+    echo json_encode($response,JSON_UNESCAPED_SLASHES);
+    exit();
+  }
    if(isset($values['jvalue']['placeorder'])){
       
       $placeorder = $values['jvalue']['placeorder'];

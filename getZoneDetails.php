@@ -1,6 +1,13 @@
 <?php
 
 if(isset($_REQUEST['staff_id'])){
+	if(!isset($_REQUEST['branch_id'])){
+        $response['error_code'] = 3;
+        $response['message'] = 'branch_id is missing';
+        echo json_encode($response,JSON_UNESCAPED_SLASHES);
+        exit();
+    }
+    
 	$zone_id_arr = [1,2,3,4,5];
 	$zone_name_arr = ["MJ Zone", "S Zone", "P Zone", "B Zone", "ET Zone"];
 
